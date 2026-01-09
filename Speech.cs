@@ -7,10 +7,10 @@ public class Speech
 
     public static int Length = Quote.Length; 
     public char TwentySecondLetter = Quote[23];
+    public string printLengthAndTwentySecondLetter = "length: {Length} and 22nd: {TwentySecondLetter}";
 
     public string PrintLengthAndTwentySecondLetter(){
 
-    string printLengthAndTwentySecondLetter = "length: {Length} and 22nd: {TwentySecondLetter}";
 
 
         return printLengthAndTwentySecondLetter;
