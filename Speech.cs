@@ -6,14 +6,15 @@ public class Speech
 {
     public const string Quote = "...ask not what your country can do for you — ask what you can do for your country.";
 
-    public int Length = Quote.Length;
+    
 
     public string PrintLengthAndTwentySecondLetter()
     {
+        int LengthOfQuote = Quote.Length;
 
-        char TwentySecondLetter = Quote[23];
+        char TwentySecondLetter = Quote[21];
 
-        return $"{TwentySecondLetter}";
+        return $"Length of Quote: {LengthOfQuote}, 22nd Letter: '{TwentySecondLetter}'";
 
     }
 }
